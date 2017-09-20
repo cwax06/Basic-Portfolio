@@ -1,7 +1,6 @@
 /*CSS Style Sheet - Homework 1*/
 
 header {
-  margin-bottom: 20px;
   color: #333;
   background: #4aaaa5;
   float: left;
@@ -15,7 +14,14 @@ h1 {
 	color: #777777;
 }
 
-nav{
+#about {
 	float: right;
 }
 
+#portfolio {
+	float: right;
+}
+
+#contact {
+	float: right;
+}
