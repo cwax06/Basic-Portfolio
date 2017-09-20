@@ -1,0 +1,21 @@
+/*CSS Style Sheet - Homework 1*/
+
+header {
+  margin-bottom: 20px;
+  color: #333;
+  background: #4aaaa5;
+  float: left;
+ } 
+
+h1 {
+	color: white;
+}
+
+.RegFont{
+	color: #777777;
+}
+
+nav{
+	float: right;
+}
+
