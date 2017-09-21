@@ -1,4 +1,13 @@
 /*CSS Style Sheet - Homework 1*/
+body {
+	z-index: -1;
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+	background: #ffffff;
+}
 
 header {
   color: #333;
