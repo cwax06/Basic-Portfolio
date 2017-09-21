@@ -1,0 +1,55 @@
+/*CSS Style Sheet - Homework 1*/
+
+header {
+  color: #333;
+  background: #ffffff;
+  border-color: #cccccc;
+  float: right;
+  width: 100%;
+  padding: 20px;
+  border-spacing: 20px;
+ } 
+
+header::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.logo {
+	background: #4aaaa5;
+	float: left;
+	padding: 20px;
+}
+
+.about {
+	
+}
+
+.connect {
+}
+
+h1 {
+	color: white;
+}
+
+.RegFont{
+	color: #777777;
+}
+
+#about {
+	float: right;
+}
+
+#portfolio {
+	float: right;
+}
+
+#contact {
+	float: right;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+}
