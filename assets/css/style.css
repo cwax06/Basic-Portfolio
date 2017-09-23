@@ -1,8 +1,10 @@
 /*CSS Style Sheet - Homework 1*/
 body {
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 header {
@@ -10,15 +12,14 @@ header {
 }
 
 .topnav {
+	padding: 0% 15% 0% 15%;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: black;
+    background-color: #ffffff;
     border-color: #cccccc;
-    border-width: 5px;
     overflow: hidden;
 }
 
@@ -41,15 +42,15 @@ header {
 
 .links {
 	font-style: ;
-	padding-top: 20px;
+	padding: 20px 10px;
 }
 
-#about {
+#aboutlink {
 	padding-right: 10px;
 	float: right;
 }
 
-#portfolio {
+#portfoliolink {
 	padding-left: 10px;
 	padding-right: 10px;
 	border-right: solid;
@@ -57,20 +58,30 @@ header {
 	float: right;
 }
 
-#contact {
+#contactlink {
 	padding-left: 10px;
 	float: right;
 }
 
-#background {
-	background-position: center;
+p.clear {
+	clear: both;
 }
 
-.about {
-	
+element.style {
+    max-width: 2000px;
+    margin-top: 46px;
 }
 
-.connect {
+p.clear {
+	clear: both;
+}
+
+.AboutMe {
+	float: left;
+	z-index: 1;
+}
+
+.ConnectWithMe {
 }
 
 h1 {
@@ -82,6 +93,13 @@ h1 {
 }
 
 footer {
-	text-align: center;
-	background-color: #666666;
+	padding: 0% 15% 0% 15%;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #666666;
+    border-color: #cccccc;
+    overflow: hidden;
 }
