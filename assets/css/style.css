@@ -1,10 +1,6 @@
 /*CSS Style Sheet - Homework 1*/
 body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: center;
+    background-image: url("../images/textured_paper.png");
 }
 
 header {
@@ -38,6 +34,7 @@ header {
 	float: left;
 	padding: 19px 21px;
 	font-size: 24px;
+    font-family: Georgia, Times, Times New Roman, serif;
 }
 
 .links {
@@ -63,37 +60,37 @@ header {
 	float: right;
 }
 
-p.clear {
-	clear: both;
-}
-
-element.style {
-    max-width: 2000px;
-    margin-top: 46px;
-}
-
-p.clear {
-	clear: both;
-}
-
-.AboutMe {
+.aboutme {
 	float: left;
-	z-index: 1;
+	background-color: white;
+    margin: 20px 20px;
+    font-family: Georgia, Times, Times New Roman, serif;
 }
 
-.ConnectWithMe {
+#profilepic {
+    float: left;
+}
+
+.connect {
+    float: left;
+    background-color: white;
+    margin: 20px 20px;
+    width: ;
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.list {
+    float: left;
 }
 
 h1 {
-	color: white;
-}
-
-.RegFont{
-	color: #777777;
+	color: #4aaaa5;
+    font-size: 24px;
+    margin: 20px;
 }
 
 footer {
-	padding: 0% 15% 0% 15%;
+    clear: both;
     display: block;
     color: #f2f2f2;
     text-align: center;
