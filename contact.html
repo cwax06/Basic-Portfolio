@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<title>Andrew S. Jones</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Andrew S. Jones Bio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
-	<header>
-		<h1>Andrew S. Jones</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>	
-	</nav>
 
-	<h1>Contact</h1>
+	 <div class="header" style="max-width: 960px">
+        <div class="main-nav">
+            <ul>
+                <li><a href="index.html" section id="aboutlink">About</a></li>
+                <li><a href="portfolio.html" section id="portfoliolink">Portfolio</a></li>
+                <li><a href="contact.html" section id="contactlink">Contact</a></li>
+            </ul>
+        <div class="logo">Andrew S. Jones</div>
+        </div>
+    </div>
+	
+		<div class="contact" id="contact" style="max-width: 650px">
+			<h1>Contact</h1>
+			<hr>
+			<form id="contact" action="login.php" method="post">    
+				<h2 for="name">Name</h2><br><br>
+				<input id="name" type="text" autocomplete="username" placeholder="John Doe" required><br><br>
+				<h2 for="email">Email</h2><br><br>
+				<input id="email" type="email" name="email" autocomplete="email"
+					   placeholder="example@domain.com" required><br><br>
+				<h2 for="textfield">Message</h2><br><br>
+				<textarea id="textfield" rows="5"></textarea><br>
+				<button class="button" type="submit" name="submit">Submit</button>
+			</form>
+    	</div>
 
-		<form>
-			Name<br>
-			<input type="text" name="John Smith"><br>
-			Email<br>
-			<input type="text" name="example@gmail.com"><br>
-			Message<br>
-			<input type="text" name="Message">
-			<br>
-			<input type="submit" name="Submit"
-
-	<h2>Connect with Me</h2>
-		<ul>
-			<li><img src="assets/images/LinkedIn.png"</li>
-			<li><img src="assets/images/Overflow.png"</li>
-			<li><img src="assets/images/github.png"</li>
+		<div class="connect" id="connect" style="max-width: 270px">
+			<h1>Connect with Me</h1>
+			<hr>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/andrew-scott-jones-8806a41b/" target="_blank"> 
+						<img src="assets/images/LinkedIn.png" alt="LinkedIn" class="list"</li>
+					<li><a href="https://stackoverflow.com/users/story/8530606" target="_blank">
+						<img src="assets/images/Overflow.png" alt="overflow" class="list"</li>
+					<li><a href="https://github.com/cwax06" target="_blank">
+						 <img src="assets/images/github.png" alt="github" class="list"</li>
+				</ul>
+		</div>
 
 
 	<footer>
-		<p>(c) Copyright 2017 Andrew S. Jones</p>
+		<h3>(c) Copyright 2017 Andrew S. Jones</h3>
 	</footer>	
 
-<body>
-	
 </body>
 </html>
